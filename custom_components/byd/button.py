@@ -34,7 +34,7 @@ class BydFlashLightsButton(BydEntity, ButtonEntity):
 class BydAlarmButton(BydEntity, ButtonEntity):
     """Vehicle alarm (horn) button."""
 
-    _attr_name = "Alarm"
+    _attr_name = "Sound Horn"
     # Action endpoints are not fully mapped yet, so keep buttons disabled by default.
     _attr_entity_registry_enabled_default = False
 
@@ -49,7 +49,7 @@ class BydAlarmButton(BydEntity, ButtonEntity):
 class BydWindowUpButton(BydEntity, ButtonEntity):
     """Vehicle window up button."""
 
-    _attr_name = "Window Up"
+    _attr_name = "Close Windows"
     # Action endpoints are not fully mapped yet, so keep buttons disabled by default.
     _attr_entity_registry_enabled_default = False
 

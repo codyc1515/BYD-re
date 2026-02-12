@@ -19,7 +19,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
 class BydDoorLock(BydEntity, LockEntity):
     """Door lock entity."""
 
-    _attr_name = "Door Lock"
+    _attr_name = "Doors"
 
     def __init__(self, coordinator) -> None:
         super().__init__(coordinator)
