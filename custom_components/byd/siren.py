@@ -19,7 +19,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
 class BydSiren(BydEntity, SirenEntity):
     """BYD siren mapped to horn command."""
 
-    _attr_name = "Alarm"
+    _attr_name = "Sound Horn"
 
     def __init__(self, coordinator) -> None:
         super().__init__(coordinator)

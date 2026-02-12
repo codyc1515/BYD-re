@@ -56,7 +56,7 @@ class BydHeatedSeatsSwitch(BydEntity, SwitchEntity):
 class BydChargingSwitch(BydEntity, SwitchEntity):
     """Charging toggle (placeholder command mapping)."""
 
-    _attr_name = "Charging"
+    _attr_name = "Scheduled Charging"
     _attr_device_class = SwitchDeviceClass.OUTLET
     _attr_entity_registry_enabled_default = False
 
